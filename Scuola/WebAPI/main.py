@@ -1,7 +1,7 @@
 import flask
 from flask import jsonify, request
 
-from database import books
+from json import books
 
 app = flask.Flask(__name__)
 app.config['DEBUG'] = True
